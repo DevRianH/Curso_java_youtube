@@ -24,6 +24,7 @@ public class LivroDeBiblioteca {
     int isbn;
     int numCadastro;
     String posicao;
+    String preco;
     
 
 }
