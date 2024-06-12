@@ -23,33 +23,13 @@ public class TesteLampada {
 
         while (true) {
 
-            if (lampada.statusLampada == false) {
-                System.out.println("\nA lampada está DESLIGADA\n");
-                System.out.println("Deseja ligar a lâmpada?[s/n]");
-                String ligar = scan.next();
+            lampada.mostrarEstado();
 
-                if (ligar.equalsIgnoreCase("s")) {
-                    lampada.statusLampada = lampada.ligarLampada();
-                } else if (ligar.equalsIgnoreCase("n")) {
-                    lampada.statusLampada = lampada.desligarLampada();
-                } else if (ligar.equalsIgnoreCase("0")) {
-                    break;
-                }
-            } else if (lampada.statusLampada == true) {
-                System.out.println("\nA lampada está LIGADA\n");
-                System.out.println("Deseja desligar a lâmpada?[s/n]");
-                String ligar = scan.next();
+            lampada.mudarEstado();
 
-                if (ligar.equalsIgnoreCase("s")) {
-                    lampada.statusLampada = lampada.desligarLampada();
-                } else if (ligar.equalsIgnoreCase("n")) {
-                    lampada.statusLampada = lampada.ligarLampada();
-                } else if (ligar.equalsIgnoreCase("0")) {
-                    break;
-                }
+            if (lampada.resposta.equalsIgnoreCase("0")) {
+                break;
             }
-
         }
-
     }
 }
