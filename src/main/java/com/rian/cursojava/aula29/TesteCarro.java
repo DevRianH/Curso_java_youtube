@@ -2,15 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.rian.cursojava.executor;
-
-import com.rian.cursojava.aula24.Carro;
+package com.rian.cursojava.aula29;
 
 /**
  *
  * @author rhezequias
  */
-public class Executor {
+public class TesteCarro {
 
     public static void main(String[] args) {
 
@@ -21,8 +19,6 @@ public class Executor {
         van.capCombustivel = 100;
         van.consumoCombustivel = 0.2;
 
-        System.out.println(van.marca);
-        System.out.println(van.modelo);
-
     }
+
 }
