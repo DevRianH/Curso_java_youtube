@@ -24,8 +24,9 @@ public class Ex02ContaCorrente {
     private double qtdDeposito;
     
     Scanner scan = new Scanner(System.in);
-    
-    public Ex02ContaCorrente() {
+
+    public Ex02ContaCorrente(String numero) {
+        this.numero = numero;
     }
     
     public Ex02ContaCorrente(String numero, double saldo, boolean statusConta, boolean especial, double limite, double qtdSaque, String nome, int escolha, String chequeEspecial, double qtdDeposito) {
@@ -111,14 +112,6 @@ public class Ex02ContaCorrente {
     
     public void setChequeEspecial(String chequeEspecial) {
         this.chequeEspecial = chequeEspecial;
-    }
-    
-    public Scanner getScan() {
-        return scan;
-    }
-    
-    public void setScan(Scanner scan) {
-        this.scan = scan;
     }
     
     public double getQtdDeposito() {

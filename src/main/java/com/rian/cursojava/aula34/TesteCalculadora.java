@@ -2,10 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.rian.cursojava.aula33;
-
-import com.rian.cursojava.exercicio.aula24.ContaCorrente;
-import com.rian.cursojava.exercicio.aula33.Ex02ContaCorrente;
+package com.rian.cursojava.aula34;
 
 /**
  *
@@ -14,8 +11,6 @@ import com.rian.cursojava.exercicio.aula33.Ex02ContaCorrente;
 public class TesteCalculadora {
 
     public static void main(String[] args) {
-
-        
 
         //Sem usar o static
         MinhaCalculadora calc = new MinhaCalculadora();
@@ -37,4 +32,5 @@ public class TesteCalculadora {
 
         System.out.println(soma4);
     }
+
 }

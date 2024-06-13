@@ -14,7 +14,8 @@ public class TesteContaCorrente {
 
     public static void main(String[] args) {
 
-        Ex02ContaCorrente conta = new Ex02ContaCorrente();
+        Ex02ContaCorrente conta = new Ex02ContaCorrente("123");
+        
         conta.setEspecial(true);
         conta.setLimite(10500);
         conta.setSaldo(1200);
