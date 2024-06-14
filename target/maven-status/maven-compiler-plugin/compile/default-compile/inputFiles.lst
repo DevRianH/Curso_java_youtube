@@ -1,172 +1,173 @@
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula13/Ex10.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula19/Ex26.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula15/Ex21.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula34/MinhaCalculadora.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula19/Ex12.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula15/Ex04.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula16/Ex03.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula11/VariaveisInteiras.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula13/Ex08.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula24/Ex01Lampada.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula16/Ex17.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula16/Ex33.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula15/Ex19.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula16/Ex16.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula16/Ex02.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula13/Ex07.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula31/Carro.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula19/Ex11.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula15/Ex20.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula13/OperadoresRelacionais.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula19/Ex25.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula19/Ex09.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula15/Ex18.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula15/Ex03.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula15/Ex17.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula20/MatrizesTridimensional.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula15/Ex22.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula16/Ex01.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula15/Ex06.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula16/Ex04.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula16/Ex20.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula34/TesteCalculadora.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula16/Ex15.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula32/TesteCarro.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula24/Carro.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula20/Ex05Agenda.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula16/Ex31.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula24/LivroDeLivraria.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula16/Ex18.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula26/TesteCarro.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula27/Ex02ContaCorrente.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula11/VariaveisPontoFlutuante.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula19/Ex07.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula16/Ex29.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula29/TesteCarro.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula33/Ex02ContaCorrente.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula16/Ex28.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula13/CurtoCircuito.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula24/Livro.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula15/Ex24.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula19/Ex23.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula32/Carro.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula30/TesteCarro.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula16/Ex06.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula19/Ex29.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula13/Ex13.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula24/ContatoAgenda.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula15/SwithCase.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula13/Ex18.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula16/Ex19.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula19/Ex06.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula19/Ex10.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula20/MatrizIrregular.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula19/Ex28.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula13/Ex12.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula15/Ex15.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula24/LivroDeBiblioteca.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula16/Ex13.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula13/Ex06.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula30/Carro.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula16/Ex32.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula13/Ex03.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula19/Ex19.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula19/Ex13.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula14/IfElse.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula19/Ex16.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula24/TesteCarro.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula20/Matrizes.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula27/TesteCarro.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula21/ForEach.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula15/Ex05.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula15/Ex08.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula27/TesteLampada.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula24/Lampada.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula15/Ex02.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula13/Ex09.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula13/Ex16.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula27/TesteContaCorrente.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula16/Ex11.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula20/Ex03.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula33/Ex01Lampada.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula19/Ex18.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula16/LoopWhile.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula13/Ex02.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula24/Ex03LivroDeLivraria.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula16/Ex25.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula16/Ex09.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/HelloWorld.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula33/TesteContaCorrente.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula15/Ex27.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula11/CuriosidadeInt.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula20/Ex02.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula19/Ex03.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula24/Ex05ContaCorrente.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula15/Ex26.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula19/Ex21.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula13/Ex01.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula25/TesteCarro.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula26/Carro.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula15/Ex12.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula13/OperadoresAritmeticos.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula13/Ex15.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula16/Ex24.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula16/Ex10.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula29/Carro.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula19/Ex17.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula16/Ex08.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula27/Ex01Lampada.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula16/Ex07.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula15/Ex09.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula24/Ex02Livro.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula16/Ex12.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula15/Ex25.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula33/TesteLampada.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula19/Arrays.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula15/Ex14.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula15/Ex11.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula16/Ex26.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula11/VariaveisChar.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula19/Ex01.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula19/Ex20.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula19/Ex04.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula16/Ex14.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula24/Ex04LivroBiblioteca.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula33/TesteCalculadora.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula10/Variaveis.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula19/Ex15.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula34/Ex01Contador.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula25/Carro.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula15/Ex01.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula16/Ex30.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula13/Ex05.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula13/Ex04.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula19/Ex14.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula15/Ex07.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula16/Ex21.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula16/Ex05.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula15/Ex23.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula24/ContaCorrente.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula17/LoopFor.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula27/Carro.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula19/Ex08.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula11/VariaveisBoolean.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula31/TesteCarro.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula19/Ex30.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula19/Ex02.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula16/Ex27.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula19/Ex05.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula24/Ex06Agenda.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula33/MinhaCalculadora.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula19/Ex24.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula12/LeituraDadosTeclado.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula19/Ex27.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula13/Ex11.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula15/Ex16.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/aula13/OperadoresLogicos.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula20/Ex04.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula13/Ex14.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula13/Ex17.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula15/Ex13.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula20/Ex01.java
-/home/rhezequias/NetBeansProjects/Curso_Java_Basico_youtube/Curso_java_youtube/src/main/java/com/rian/cursojava/exercicio/aula15/Ex10.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula16\Ex11.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula19\Ex20.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula14\IfElse.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula13\Ex16.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula16\Ex25.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\HelloWorld.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula15\Ex27.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula12\LeituraDadosTeclado.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula16\Ex09.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula33\Ex01Lampada.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula15\Ex13.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula19\Ex18.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula13\Ex02.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula33\TesteCalculadora.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula19\Ex17.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula19\Ex03.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula26\TesteCarro.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula13\Ex01.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula15\Ex26.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula29\TesteCarro.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula16\Ex08.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula16\Ex10.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula15\Ex12.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula20\Ex03.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula16\Ex07.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula34\TesteCalculadora.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula21\ForEach.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula15\Ex14.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula31\TesteCarro.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula34\TesteContador.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula20\Ex02.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula24\LivroDeLivraria.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula13\Ex15.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula15\Ex11.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula31\Carro.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula13\Ex18.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula11\VariaveisPontoFlutuante.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula16\Ex12.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula24\ContaCorrente.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula15\Ex09.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula15\Ex25.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula19\Ex01.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula19\Ex04.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula24\ContatoAgenda.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula16\Ex26.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula19\Ex15.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula33\MinhaCalculadora.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula17\LoopFor.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula25\TesteCarro.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula13\Ex05.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula15\Ex16.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula16\Ex14.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula20\Ex05Agenda.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula24\Lampada.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula24\Livro.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula16\Ex30.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula16\Ex05.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula15\Ex23.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula13\Ex04.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula30\Carro.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula16\Ex21.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula15\Ex01.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula32\TesteCarro.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula19\Ex14.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula15\Ex07.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula19\Ex05.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula19\Ex08.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula24\Ex04LivroBiblioteca.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula16\Ex24.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula16\Ex27.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula20\Ex04.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula19\Ex02.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula19\Ex21.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula20\MatrizesTridimensional.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula16\LoopWhile.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula19\Ex24.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula13\Ex11.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula11\VariaveisBoolean.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula13\Ex14.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula13\Ex17.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula15\Ex10.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula20\Ex01.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula20\Matrizes.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula19\Ex27.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula15\Ex21.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula13\CurtoCircuito.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula32\Carro.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula13\Ex10.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula19\Ex12.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula16\Ex17.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula16\Ex03.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula16\Ex33.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula19\Ex26.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula25\Carro.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula13\Ex07.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula15\Ex19.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula15\SwithCase.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula24\Ex01Lampada.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula15\Ex18.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula16\Ex16.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula24\Ex03LivroDeLivraria.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula19\Ex11.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula19\Ex09.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula27\Ex02ContaCorrente.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula13\Ex08.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula15\Ex04.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula19\Ex25.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula16\Ex02.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula15\Ex20.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula20\MatrizIrregular.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula24\LivroDeBiblioteca.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula15\Ex17.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula19\Ex30.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula16\Ex04.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula15\Ex06.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula16\Ex01.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula15\Ex22.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula11\CuriosidadeInt.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula15\Ex03.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula19\Arrays.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula34\Ex01Contador.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula16\Ex20.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula16\Ex29.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula16\Ex15.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula16\Ex18.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula16\Ex31.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula33\TesteLampada.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula19\Ex23.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula13\Ex13.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula16\Ex28.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula29\Carro.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula19\Ex29.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula11\VariaveisChar.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula19\Ex07.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula27\TesteLampada.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula33\TesteContaCorrente.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula16\Ex06.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula15\Ex24.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula24\Ex06Agenda.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula16\Ex19.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula19\Ex28.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula13\Ex12.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula16\Ex13.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula27\TesteContaCorrente.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula24\Carro.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula15\Ex15.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula19\Ex06.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula24\TesteCarro.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula11\VariaveisInteiras.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula10\Variaveis.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula13\Ex09.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula16\Ex32.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula33\Ex02ContaCorrente.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula19\Ex16.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula13\OperadoresLogicos.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula13\OperadoresAritmeticos.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula27\Carro.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula19\Ex13.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula13\OperadoresRelacionais.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula27\Ex01Lampada.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula19\Ex10.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula24\Ex05ContaCorrente.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula15\Ex02.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula30\TesteCarro.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula34\MinhaCalculadora.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula15\Ex05.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula15\Ex08.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula24\Ex02Livro.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula27\TesteCarro.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula19\Ex19.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\aula26\Carro.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula13\Ex06.java
+C:\Users\rianh\Desktop\Projetos java\Curso_Java_Basico_youtube\Curso_java_youtube\src\main\java\com\rian\cursojava\exercicio\aula13\Ex03.java

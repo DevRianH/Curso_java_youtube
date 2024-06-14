@@ -12,25 +12,18 @@ import java.util.Scanner;
  */
 public class Ex01Contador {
 
-    private int numero;
+    private static int cont;
 
-    public Ex01Contador() {
+    public static void incrementar() {
+        cont++;
     }
 
-    Scanner scan = new Scanner(System.in);
-
-    public int getNumero() {
-        return numero;
+    public static void zerar() {
+        cont = 0;
     }
 
-    public void setNumero(int numero) {
-        this.numero = numero;
-    }
-
-    public static void adicionar() {
-        System.out.println("Adicione um número:");
-        
-        
+    public static int obterValor() {
+        return cont;
     }
 
 }
