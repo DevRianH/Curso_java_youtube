@@ -19,16 +19,22 @@ public class TesteLampada {
         Ex01Lampada lampada = new Ex01Lampada();
         lampada.setStatusLampada(true);
 
-        System.out.println("Digite 0 para parar o programa");
-
         while (true) {
 
             lampada.mostrarEstado();
 
             lampada.mudarEstado();
 
-            if (lampada.resposta.equalsIgnoreCase("0")) {
+            lampada.mostrarEstado();
+
+            System.out.println("0 - parar programa\n1 - continuar");
+            String respo = scan.next();
+            lampada.setResposta(respo);
+
+            if (lampada.getResposta().equalsIgnoreCase("0")) {
                 break;
+            } else {
+                continue;
             }
         }
     }

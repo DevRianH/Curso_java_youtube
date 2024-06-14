@@ -12,13 +12,15 @@ import java.util.Scanner;
  */
 public class Ex01Lampada {
 
-    boolean statusLampada;
-    String resposta;
+    private boolean statusLampada;
+    private String resposta;
+
+    Scanner scan = new Scanner(System.in);
 
     public Ex01Lampada() {
     }
 
-    public Ex01Lampada(boolean statusLampada, String resposta) {
+    public void Ex01Lampada(boolean statusLampada, String resposta) {
         this.statusLampada = statusLampada;
         this.resposta = resposta;
     }
@@ -57,7 +59,6 @@ public class Ex01Lampada {
     }
 
     public void mudarEstado() {
-        Scanner scan = new Scanner(System.in);
 
         if (isStatusLampada() == true) {
             System.out.println("Deseja desligar a lâmpada?[s/n]");
@@ -84,4 +85,5 @@ public class Ex01Lampada {
         }
 
     }
+
 }

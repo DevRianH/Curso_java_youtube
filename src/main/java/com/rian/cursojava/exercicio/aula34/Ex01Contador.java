@@ -4,8 +4,6 @@
  */
 package com.rian.cursojava.exercicio.aula34;
 
-import java.util.Scanner;
-
 /**
  *
  * @author rhezequias
