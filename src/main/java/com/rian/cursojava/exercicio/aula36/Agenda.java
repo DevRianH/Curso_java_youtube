@@ -12,16 +12,16 @@ import java.util.Scanner;
  */
 public class Agenda {
 
-    private Contato[] contatos;
+    private Contato[][] contatos;
     private String nomeAgenda;
 
     Scanner scan = new Scanner(System.in);
 
-    public Contato[] getContatos() {
+    public Contato[][] getContatos() {
         return contatos;
     }
 
-    public void setContatos(Contato[] contatos) {
+    public void setContatos(Contato[][] contatos) {
         this.contatos = contatos;
     }
 
@@ -40,23 +40,7 @@ public class Agenda {
 
         return nomeAgenda;
     }
-    
-    Contato contato = new Contato();
-    
-    public String cadastroContato() {
 
-        System.out.println("Digite os dados do primeiro contato\n");
+   
 
-        System.out.println("Nome:");
-        contato.setNome(scan.nextLine());
-
-        System.out.println("Telefone:");
-        contato.setTelefone(scan.nextLine());
-
-        System.out.println("Email:");
-        contato.setEmail(scan.nextLine());
-        
-        return contatos;
-    }
-    
 }

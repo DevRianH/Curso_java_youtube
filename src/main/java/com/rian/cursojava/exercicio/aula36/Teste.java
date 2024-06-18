@@ -20,8 +20,14 @@ public class Teste {
 
         Contato contato = new Contato();
 
-        agenda.cadastroNomeAgenda();
+        //agenda.cadastroNomeAgenda();
+        contato.cadastroContato();
+        System.out.println("");
+        
+        //System.out.println("Nome: " + contato.getNome() + "\nTelefone: " + contato.getTelefone() + "\nEmail: " + contato.getEmail());
 
+        System.out.println(contato.getNome());
+        
     }
 
 }
