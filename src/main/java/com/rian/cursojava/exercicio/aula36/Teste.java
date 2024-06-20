@@ -18,16 +18,35 @@ public class Teste {
 
         Agenda agenda = new Agenda();
 
-        Contato contato = new Contato();
+        System.out.println("Digite o nome da agenda: ");
+        agenda.setNomeAgenda(scan.nextLine());
 
-        //agenda.cadastroNomeAgenda();
-        contato.cadastroContato();
-        System.out.println("");
-        
-        //System.out.println("Nome: " + contato.getNome() + "\nTelefone: " + contato.getTelefone() + "\nEmail: " + contato.getEmail());
+        Contato[] contatos = new Contato[3];
 
-        System.out.println(contato.getNome());
-        
+        for (int i = 0; i < contatos.length; i++) {
+
+            System.out.println("\nDigite os dados do " + (i + 1) + "° contato\n");
+            Contato c = new Contato();
+
+            System.out.println("Nome:");
+            c.setNome(scan.nextLine());
+
+            System.out.println("Telefone: ");
+            c.setEmail(scan.nextLine());
+
+            System.out.println("Email: ");
+            c.setEmail(scan.nextLine());
+
+            contatos[i] = c;
+
+        }
+
+        agenda.setContatos(contatos);
+
+        if (agenda != null) {
+            System.out.println(agenda.obterInfo());
+        }
+
     }
 
 }

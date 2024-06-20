@@ -12,16 +12,14 @@ import java.util.Scanner;
  */
 public class Agenda {
 
-    private Contato[][] contatos;
     private String nomeAgenda;
+    private Contato[] contatos;
 
-    Scanner scan = new Scanner(System.in);
-
-    public Contato[][] getContatos() {
+    public Contato[] getContatos() {
         return contatos;
     }
 
-    public void setContatos(Contato[][] contatos) {
+    public void setContatos(Contato[] contatos) {
         this.contatos = contatos;
     }
 
@@ -33,14 +31,16 @@ public class Agenda {
         this.nomeAgenda = nomeAgenda;
     }
 
-    public String cadastroNomeAgenda() {
+    public String obterInfo() {
+        String info = "Nome: " + getNomeAgenda() + "\n";
 
-        System.out.println("Digite o nome da Agenda:");
-        setNomeAgenda(scan.nextLine());
+        if (contatos != null) {
+            for (Contato c : contatos) {
+                info += c.obterInfo() + "\n";
+            }
+        }
 
-        return nomeAgenda;
+        return info;
     }
-
-   
 
 }
