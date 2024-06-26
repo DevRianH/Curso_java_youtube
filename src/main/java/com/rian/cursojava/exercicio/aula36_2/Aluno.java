@@ -12,7 +12,7 @@ public class Aluno {
 
     private String nome;
     private String matricula;
-    private String[] notas;
+    private double[] notas;
 
     public String getNome() {
         return nome;
@@ -30,12 +30,35 @@ public class Aluno {
         this.matricula = matricula;
     }
 
-    public String[] getNotas() {
+    public double[] getNotas() {
         return notas;
     }
 
-    public void setNotas(String[] notas) {
+    public void setNotas(double[] notas) {
         this.notas = notas;
+    }
+
+    public String obterInfor() {
+        String info = "Nome = " + getNome() + ";";
+        info += "Matrícula = " + getMatricula() + ";";
+        info += "Notas: ";
+
+        int soma = 0;
+        for (double nota : notas) {
+            soma += nota;
+            info += nota + " ";
+        }
+
+        double media = soma / 4;
+        info += "\n" + "Média: " + media + " - ";
+        if (media >= 7) {
+            info += "Aprovado";
+        } else {
+            info += "Reprovado";
+        }
+
+        return info;
+
     }
 
 }

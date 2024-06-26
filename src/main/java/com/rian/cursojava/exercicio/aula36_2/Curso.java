@@ -12,8 +12,8 @@ public class Curso {
 
     private String curso;
     private String horario;
-    private Aluno[] alunos;
     private Professor professor;
+    private Aluno[] alunos;
 
     public String getCurso() {
         return curso;
