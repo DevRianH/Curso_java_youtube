@@ -47,4 +47,34 @@ public class Curso {
         this.professor = professor;
     }
 
+    public String obterInfo() {
+        String info = "Nome do curso: " + getCurso() + "\n";
+
+        if (professor != null) {
+            info += professor.obterInfo();
+            System.out.println("\n----Alunos----\n");
+        }
+
+        if (alunos != null) {
+            for (Aluno aluno : alunos) {
+                if (aluno != null) {
+                    info += aluno.obterInfor();
+                    info += "\n";
+                }
+            }
+
+            info += "\nMédia da turma: " + obterMediaCurso();
+        }
+        return info;
+    }
+
+    public double obterMediaCurso() {
+        double soma = 0;
+        for (Aluno aluno : alunos) {
+            if (aluno != null) {
+                soma += aluno.obterMedia();
+            }
+        }
+        return soma / alunos.length;
+    }
 }

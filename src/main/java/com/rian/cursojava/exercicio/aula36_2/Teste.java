@@ -24,42 +24,51 @@ public class Teste {
         System.out.println("Digite o nome do Curso:");
         curso.setCurso(scan.nextLine());
 
-        System.out.println("Digite o horário do Curso:");
+        System.out.println("\nDigite o horário do Curso:");
         curso.setHorario(scan.nextLine());
 
-        System.out.println("Digite o nome do Professor:");
+        System.out.println("\nDigite o nome do Professor:");
         prof.setNome(scan.next());
 
-        System.out.println("Digite o departamento do Professor:");
-        prof.setDepartamento(scan.nextLine());
+        System.out.println("\nDigite o departamento do Professor:");
+        prof.setDepartamento(scan.next());
 
-        System.out.println("Digite o email do Professor:");
-        prof.setEmail(scan.nextLine());
+        System.out.println("\nDigite o email do Professor:");
+        prof.setEmail(scan.next());
 
         curso.setProfessor(prof);
 
-        Aluno[] alunos = new Aluno[5];
-        Aluno aluno = new Aluno();
+        System.out.println("\n----Alunos----");
+
+        Aluno[] alunos = new Aluno[2];
 
         for (int i = 0; i < alunos.length; i++) {
 
-            System.out.println("Digite o nome do aluno:");
-            aluno.setNome(scan.nextLine());
+            Aluno aluno = new Aluno();
 
-            System.out.println("Digiet a matrícula do aluno:");
-            aluno.setMatricula(scan.nextLine());
+            System.out.println("\nDigite o nome do aluno " + (i + 1) + ":");
+            aluno.setNome(scan.next());
 
+            System.out.println("\nDigite a matrícula do aluno:");
+            aluno.setMatricula(scan.next());
+
+            alunos[i] = aluno;
+
+            System.out.println("");
             double[] notas = new double[4];
 
             for (int j = 0; j < notas.length; j++) {
                 System.out.println("Digite a nota " + (j + 1) + ":");
                 notas[j] = scan.nextDouble();
             }
+
+            aluno.setNotas(notas);
+
         }
-        
+
         curso.setAlunos(alunos);
-        
-        
+
+        System.out.println(curso.obterInfo());
 
     }
 }
