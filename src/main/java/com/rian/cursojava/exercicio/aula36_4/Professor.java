@@ -2,16 +2,16 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.rian.cursojava.exercicio.aula36_3;
+package com.rian.cursojava.exercicio.aula36_4;
 
 /**
  *
  * @author rhezequias
  */
-public class Contato {
+public class Professor {
 
     private String nome;
-    private String telefone;
+    private String departamento;
     private String email;
 
     public String getNome() {
@@ -22,12 +22,12 @@ public class Contato {
         this.nome = nome;
     }
 
-    public String getTelefone() {
-        return telefone;
+    public String getDepartamento() {
+        return departamento;
     }
 
-    public void setTelefone(String telefone) {
-        this.telefone = telefone;
+    public void setDepartamento(String departamento) {
+        this.departamento = departamento;
     }
 
     public String getEmail() {
@@ -39,7 +39,6 @@ public class Contato {
     }
 
     public String mostrarInfo() {
-        return "\nNome: " + getNome() + "\nTelefone: " + getTelefone() + "\nEmail: " + getEmail();
+        return "\nProfessor: " + getNome() + "\nDepartamento: " + getDepartamento() + "\nEmail: " + getEmail();
     }
-
 }

@@ -29,4 +29,16 @@ public class Agenda {
         this.contatos = contatos;
     }
 
+    public String mostrarInfo() {
+        String nome = "Nome Agenda: " + getNome();
+
+        if (contatos != null) {
+            for (Contato cont : contatos) {
+                nome += "\n" + cont.mostrarInfo() + "\n";
+            }
+        }
+
+        return nome;
+    }
+
 }
