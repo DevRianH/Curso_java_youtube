@@ -39,26 +39,35 @@ public class Aluno {
     }
 
     public String mostrarInfo() {
-        String info = "Nome: " + getNome() + "\n";
-        info += "Matrícula: " + getMatricula() + "\n";
+        String info = "\nNome: " + getNome() + "\n";
+        info += "Matrícula: " + getMatricula() + "\n" + "Notas: ";
 
         if (notas != null) {
             double soma = 0;
 
             for (double nota : notas) {
-                info += "Nota: " + nota;
+                info += +nota + " ";
                 soma += nota;
             }
 
-            double media = soma / 4;
+            double media = soma / 2;
 
             if (media >= 7) {
-                info += "Aprovado";
+                info += "\nMédia: " + media + " - Aprovado";
             } else {
-                info += "Reprovado";
+                info += "\nMédia: " + media + " - Reprovado";;
             }
         }
 
         return info;
+    }
+
+    public double obterMedia() {
+
+        double soma = 0;
+        for (double nota : notas) {
+            soma += nota;
+        }
+        return soma / 2;
     }
 }

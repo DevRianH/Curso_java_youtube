@@ -51,12 +51,24 @@ public class Teste {
             System.out.println("\nMatrícula:");
             aluno.setMatricula(scan.next());
 
+            alunos[i] = aluno;
+
             double[] notas = new double[2];
 
             for (int j = 0; j < notas.length; j++) {
 
-                System.out.println("\n" + (j + 1) + "° Nota:");
-                notas[j] = scan.nextDouble();
+                while (true) {
+
+                    System.out.println("\n" + (j + 1) + "° Nota:");
+                    notas[j] = scan.nextDouble();
+
+                    if (notas[j] > 10 || notas[j] < 0) {
+                        System.out.println("Nota inválida, somente de 0 a 10");
+                        continue;
+                    } else {
+                        break;
+                    }
+                }
 
             }
 

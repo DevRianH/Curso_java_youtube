@@ -54,6 +54,26 @@ public class Curso {
             info += "\n" + professor.mostrarInfo();
         }
 
+        if (alunos != null) {
+            for (Aluno aluno : alunos) {
+                info += "\n" + aluno.mostrarInfo();
+
+            }
+
+            info += "\nMédia curso: " + mostrarMediaTurma();
+        }
+
         return info;
     }
+
+    public double mostrarMediaTurma() {
+        double soma = 0;
+        for (Aluno aluno : alunos) {
+            if (alunos != null) {
+                soma += aluno.obterMedia();
+            }
+        }
+        return soma / alunos.length;
+    }
+
 }
