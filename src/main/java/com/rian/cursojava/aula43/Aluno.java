@@ -5,6 +5,7 @@
 package com.rian.cursojava.aula43;
 
 import java.util.Arrays;
+import java.util.Objects;
 
 /**
  *
@@ -74,7 +75,25 @@ public class Aluno {
     }*/
     @Override
     public String toString() {
-        return "Aluno{" + "curso=" + curso + ", notas=" + Arrays.toString(notas) + '}';
+        return "Aluno{" + " curso = " + curso + ", notas = " + Arrays.toString(notas) + '}';
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+
+        final Aluno other = (Aluno) obj;
+
+        if (curso.equalsIgnoreCase(other.curso)) {
+            return true;
+        }
+
+        return false;
     }
 
 }
