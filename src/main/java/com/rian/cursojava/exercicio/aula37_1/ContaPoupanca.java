@@ -24,18 +24,41 @@ public class ContaPoupanca extends ContaBancaria {
 
     public void calcularNovoSaldo() {
         Scanner scan = new Scanner(System.in);
-        double saldo = super.getSaldo();
-        
-        
-        System.out.println("Quantidade de mês do depósito:");
-        int mes = scan.nextInt();
-        
-        if(mes <= 0 && mes > 12){
-            System.out.println("Digito inválido");
+
+        System.out.println("Saldo: " + getSaldo());
+
+        double taxaJurosAnual = 7.33;
+        double taxaJuros = taxaJurosAnual / 100;
+
+        System.out.println("Quantos anos ficará depositado? 0 se for apenas meses");
+        int qtdAnos = scan.nextInt();
+
+        if (qtdAnos == 0 || qtdAnos == 1) {
+
+            System.out.println("Quantos meses ficará depositado?");
+            int qtdMes = scan.nextInt();
+
+            double montante = super.getSaldo() * Math.pow(1 + (taxaJuros / qtdMes), qtdMes * 1);
+            montante = Math.round(montante * 100) / 100;
+
+            setSaldo(montante);
+
+            System.out.println("Saldo total após " + qtdMes + " mês de investimento será de R$" + getSaldo());
         } else {
-            double reajuste = saldo * 0,53;
+            double montante = super.getSaldo() * Math.pow(1 + (taxaJuros / 12), 12 * qtdAnos);
+            montante = Math.round(montante * 100) / 100;
+            setSaldo(montante);
+
+            System.out.println("Saldo total após " + qtdAnos + " anos de investimento será de R$" + getSaldo());
         }
-        
+
+    }
+
+    @Override
+    public String mostrarDados() {
+        String info = super.mostrarDados() + "\nTaxa de Juros Anual: 7,33% ";
+
+        return info;
     }
 
 }

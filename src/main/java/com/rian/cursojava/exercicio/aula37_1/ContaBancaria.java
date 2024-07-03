@@ -47,6 +47,7 @@ public class ContaBancaria {
         System.out.println("Saldo: " + getSaldo());
         System.out.println("Digite o valor do saque:");
         int valorSaque = scan.nextInt();
+        scan.nextLine();
 
         if (valorSaque > getSaldo()) {
             info = "Saldo insuficiente\nSaldo: " + getSaldo();
@@ -68,6 +69,17 @@ public class ContaBancaria {
 
         System.out.println("Saldo: " + getSaldo());
 
+    }
+
+    public String mostrarDados() {
+        String info = "Nome: " + getNomeCliente() + "\nNúmero Conta: " + getNumConta() + "\nSaldo: " + getSaldo();
+
+        return info;
+    }
+    
+    public void cadastrarCliente(){
+        
+        
     }
 
 }

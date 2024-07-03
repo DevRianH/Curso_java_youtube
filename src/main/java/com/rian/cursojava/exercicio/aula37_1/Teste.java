@@ -15,7 +15,6 @@ public class Teste {
 
     public static void main(String[] args) {
 
-        ContaBancaria contBan = new ContaBancaria();
         ArrayList<ContaBancaria> contas = new ArrayList<>();
         int numContas = 1;
         boolean pause = true;
@@ -33,12 +32,27 @@ public class Teste {
                 boolean continuar = true;
 
                 while (continuar) {
+                    ContaBancaria contBan;
 
+                    System.out.println("Tipo da Conta:\n1 - Conta Bancaria\n2 - Conta Poupança\n3 - Conta Especial");
+                    int tipoConta = scan.nextInt();
+
+                    if (tipoConta == 1) {
+                        contBan = new ContaBancaria();
+                    } else if (tipoConta == 2) {
+                        contBan = new ContaPoupanca();
+                    } else if (tipoConta == 3) {
+                        contBan = new ContaEspecial();
+                        
+                    } else {
+                        contBan = new ContaBancaria();
+                    }
+
+                    scan.nextLine();
                     System.out.println("\nConta N° " + numContas);
 
                     System.out.println("\nNome do cliente:");
                     contBan.setNomeCliente(scan.nextLine());
-                    scan.nextLine();
 
                     System.out.println("\nNúmero da conta:");
                     contBan.setNumConta(scan.nextLine());
@@ -71,20 +85,47 @@ public class Teste {
 
                 ContaBancaria contaSelecionada = contas.get(escoConta - 1);
 
-                System.out.println("\nESCOLHA\n1 - Sacar\n2 - Depositar\n3 - Saldo com Rendimento\n4 - Dados da Conta\n");
-                int esco = scan.nextInt();
+                if (contaSelecionada instanceof ContaPoupanca) {
+                    System.out.println("\nESCOLHA\n1 - Sacar\n2 - Depositar\n3 - Rendimento\n4 - Dados da Conta");
+                    int esco = scan.nextInt();
 
-                if (esco == 1) {
-                    System.out.println(contBan.sacar());
+                    switch (esco) {
+                        case 1:
+                            System.out.println(contaSelecionada.sacar());
+                            break;
+                        case 2:
+                            contaSelecionada.depositar();
+                            break;
+                        case 3:
+                            ((ContaPoupanca) contaSelecionada).calcularNovoSaldo();
+                            break;
+                        case 4:
+                            System.out.println(((ContaPoupanca) contaSelecionada).mostrarDados());
+                            break;
+                    }
+                } else if (contaSelecionada instanceof ContaEspecial) {
 
-                } else if (esco == 2) {
-                    contBan.depositar();
+                } else if (contaSelecionada instanceof ContaBancaria) {
+
+                    System.out.println("\nESCOLHA\n1 - Sacar\n2 - Depositar\n3 - Dados da Conta");
+                    int esco = scan.nextInt();
+                    scan.nextLine();
+
+                    switch (esco) {
+                        case 1:
+                            System.out.println(contaSelecionada.sacar());
+                            break;
+                        case 2:
+                            contaSelecionada.depositar();
+                            break;
+                        case 3:
+                            System.out.println(contaSelecionada.mostrarDados());
+                            break;
+                    }
+
                 }
 
-            } else {
-                System.out.println();
             }
-
         }
     }
 }
