@@ -60,5 +60,12 @@ public class ContaPoupanca extends ContaBancaria {
 
         return info;
     }
+    
+    @Override
+    public void cadastrarCliente(){
+        super.cadastrarCliente();
+        
+        
+    }
 
 }

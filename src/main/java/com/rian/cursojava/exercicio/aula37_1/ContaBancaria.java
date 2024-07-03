@@ -76,10 +76,19 @@ public class ContaBancaria {
 
         return info;
     }
-    
-    public void cadastrarCliente(){
+
+    public void cadastrarCliente() {
+
+        Scanner scan = new Scanner(System.in);
         
-        
+        System.out.println("\nNome do cliente:");
+        setNomeCliente(scan.nextLine());
+
+        System.out.println("\nNúmero da conta:");
+        setNumConta(scan.nextLine());
+
+        System.out.println("\nSaldo:");
+        setSaldo(scan.nextDouble());
     }
 
 }

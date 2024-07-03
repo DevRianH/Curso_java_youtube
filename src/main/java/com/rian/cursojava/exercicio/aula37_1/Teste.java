@@ -39,26 +39,18 @@ public class Teste {
 
                     if (tipoConta == 1) {
                         contBan = new ContaBancaria();
+                        contBan.cadastrarCliente();
                     } else if (tipoConta == 2) {
                         contBan = new ContaPoupanca();
+                        ((ContaPoupanca) contBan).cadastrarCliente();
                     } else if (tipoConta == 3) {
                         contBan = new ContaEspecial();
-                        
+                        ((ContaEspecial) contBan).cadastrarCliente();
                     } else {
                         contBan = new ContaBancaria();
                     }
 
                     scan.nextLine();
-                    System.out.println("\nConta N° " + numContas);
-
-                    System.out.println("\nNome do cliente:");
-                    contBan.setNomeCliente(scan.nextLine());
-
-                    System.out.println("\nNúmero da conta:");
-                    contBan.setNumConta(scan.nextLine());
-
-                    System.out.println("\nSaldo:");
-                    contBan.setSaldo(scan.nextDouble());
 
                     contas.add(contBan);
 
@@ -104,6 +96,21 @@ public class Teste {
                             break;
                     }
                 } else if (contaSelecionada instanceof ContaEspecial) {
+                    System.out.println("\nESCOLHA\n1 - Sacar\n2 - Depositar\n3 - Dados da Conta");
+                    int esco = scan.nextInt();
+
+                    switch (esco) {
+                        case 1:
+                            System.out.println(((ContaEspecial) contaSelecionada).sacar());
+                            break;
+                        case 2:
+                            contaSelecionada.depositar();
+                            break;
+                        case 3:
+                            System.out.println(((ContaEspecial) contaSelecionada).mostrarDados());
+                            break;
+
+                    }
 
                 } else if (contaSelecionada instanceof ContaBancaria) {
 
