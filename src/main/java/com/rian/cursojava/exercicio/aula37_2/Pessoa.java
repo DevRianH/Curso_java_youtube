@@ -14,6 +14,7 @@ public class Pessoa {
 
     private String nome;
     private double rendaBruta;
+    private double impostoPagar;
 
     public String getNome() {
         return nome;
@@ -31,10 +32,23 @@ public class Pessoa {
         this.rendaBruta = rendaBruta;
     }
 
+    public double getImpostoPagar() {
+        return impostoPagar;
+    }
+
+    public void setImpostoPagar(double impostoPagar) {
+        this.impostoPagar = impostoPagar;
+    }
+
+    @Override
+    public String toString() {
+        return "Nome: " + nome + "\nRenda Bruta: " + rendaBruta + "\nImposto Pagar: " + impostoPagar;
+    }
+
     public void cadastrarPessoa() {
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Nome da Pessoa:");
+        System.out.println("Nome:");
         setNome(scan.nextLine());
 
         System.out.println("Renda Bruta:");

@@ -23,7 +23,7 @@ public class Teste {
         while (controlador) {
             Pessoa pessoa;
 
-            System.out.println("1 - Pessoa Fisíca\n2 - Pessoa Jurídica");
+            System.out.println("\n1 - Pessoa Fisíca\n2 - Pessoa Jurídica\n0 - Parar Programa");
             int escolha = scan.nextInt();
 
             if (escolha == 1) {
@@ -32,6 +32,8 @@ public class Teste {
             } else if (escolha == 2) {
                 pessoa = new PessoaJuridica();
                 ((PessoaJuridica) pessoa).cadastrarPessoa();
+            } else if (escolha == 0) {
+                break;
             } else {
                 System.out.println("Digíto inválido");
                 continue;
@@ -39,6 +41,25 @@ public class Teste {
 
             pessoas.add(pessoa);
 
+            System.out.println("Mostrar dados?[s/n]");
+            String simNao = scan.next();
+
+            if (simNao.equalsIgnoreCase("s")) {
+                for (Pessoa pes : pessoas) {
+                    System.out.println("-----------------------------");
+                    if (pes instanceof PessoaFisica) {
+                        System.out.println("Tipo de Conta: Física");
+                        ((PessoaFisica) pes).calcularImposto();
+                        System.out.println(pes.toString());
+                    } else if (pes instanceof PessoaJuridica) {
+                        System.out.println("Tipo de Conta: Jurídica");
+                        ((PessoaJuridica) pes).calcularImposto();
+                        System.out.println(pes.toString());
+                    }
+                }
+            } else {
+                continue;
+            }
         }
     }
 }

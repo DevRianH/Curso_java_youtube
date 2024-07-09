@@ -14,4 +14,10 @@ public class PessoaJuridica extends Pessoa {
     public void cadastrarPessoa() {
         super.cadastrarPessoa();
     }
+
+    public void calcularImposto() {
+        double info = getRendaBruta() * 0.1;
+
+        setImpostoPagar(info);
+    }
 }
