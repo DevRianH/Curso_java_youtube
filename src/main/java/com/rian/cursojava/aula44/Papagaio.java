@@ -8,8 +8,15 @@ package com.rian.cursojava.aula44;
  *
  * @author rhezequias
  */
-public abstract class Ave extends Animal {
+public class Papagaio extends Ave {
 
-    public abstract void voar();
+    @Override
+    public void voar() {
+    }
+
+    @Override
+    public void emitirSom() {
+
+    }
 
 }

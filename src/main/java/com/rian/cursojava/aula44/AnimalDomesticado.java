@@ -8,8 +8,10 @@ package com.rian.cursojava.aula44;
  *
  * @author rhezequias
  */
-public abstract class Ave extends Animal {
+public interface AnimalDomesticado {
 
-    public abstract void voar();
+    void levarVeterinario();
+
+    void alimentar();
 
 }

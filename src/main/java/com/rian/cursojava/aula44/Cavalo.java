@@ -8,18 +8,26 @@ package com.rian.cursojava.aula44;
  *
  * @author rhezequias
  */
-public abstract class Animal {
+public class Cavalo extends Mamifero implements AnimalDomesticado {
 
-    private String nome;
+    @Override
+    public void amamentar() {
 
-    public abstract void emitirSom();
-
-    public String getNome() {
-        return nome;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    @Override
+    public void emitirSom() {
+
+    }
+
+    @Override
+    public void levarVeterinario() {
+
+    }
+
+    @Override
+    public void alimentar() {
+
     }
 
 }

@@ -8,6 +8,8 @@ package com.rian.cursojava.aula44;
  *
  * @author rhezequias
  */
-public class Mamifero {
-    
+public abstract class Mamifero extends Animal {
+
+    public abstract void amamentar();
+
 }
