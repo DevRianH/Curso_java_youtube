@@ -48,9 +48,9 @@ public class Teste {
 
         for (int i = 0; i < figura.length; i++) {
 
-            if (figura[i] instanceof DimensaoVolumetrica && figura[i] instanceof DimensaoSuperficial) {
+            if (figura[i] instanceof Figura3D) {
                 System.out.println("\nFigura3D\nNome: " + figura[i].getNome() + "\nCor: " + figura[i].getCor() + "\nÁrea: " + "\nVolume: ");
-            } else if (figura[i] instanceof DimensaoSuperficial) {
+            } else if (figura[i] instanceof Figura2D) {
                 System.out.println("\nFigura2D\nNome: " + figura[i].getNome() + "\nCor: " + figura[i].getCor() + "\nÁrea: ");
             }
 
