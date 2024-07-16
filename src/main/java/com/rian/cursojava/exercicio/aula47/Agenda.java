@@ -43,20 +43,23 @@ public class Agenda extends Contato {
         System.out.println("Nome para pesquisa:");
         String nomePes = scan.nextLine();
 
-        boolean marc = false;
-        for (Contato cont : contatos) {
+        try {
+            boolean marc = false;
+            for (Contato cont : contatos) {
 
-            if (cont.getNome().equalsIgnoreCase(nomePes)) {
-                System.out.println(cont.toString());
-                marc = true;
-                break;
+                if (cont.getNome().equalsIgnoreCase(nomePes)) {
+                    System.out.println(cont.toString());
+                    marc = true;
+                    break;
+                }
             }
-        }
 
-        if (marc == false) {
-            System.out.println("\nContato NÃO encontrado");
+            if (marc == false) {
+                throw new ContatoNaoExisteException(marc);
+            }
+        } catch (ContatoNaoExisteException ex) {
+            System.out.println(ex.toString());
         }
-
     }
 
 }

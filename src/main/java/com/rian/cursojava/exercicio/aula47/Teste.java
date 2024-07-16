@@ -22,14 +22,14 @@ public class Teste {
 
         while (marcador) {
 
-            System.out.println("\n1 - Cadastrar Contato\n2 - Pesquisar Contato\n3 - Parar programa");
+            System.out.println("\n1 - Consultar Contato\n2 - Cadastrar Contato\n3 - Parar programa");
             int numPes = scan.nextInt();
 
             switch (numPes) {
                 case 1:
                     agenda.consultarContato();
                     break;
-                case 2:
+                case 2: 
                     agenda.cadastrarContato();
                     break;
                 case 3:
