@@ -14,6 +14,15 @@ public class Contato {
     private String telefone;
     private int identificador;
 
+    public Contato(String nome, String telefone, int identificador) {
+        this.nome = nome;
+        this.telefone = telefone;
+        this.identificador = identificador;
+    }
+
+    public Contato() {
+    }
+
     public String getNome() {
         return nome;
     }
@@ -40,12 +49,7 @@ public class Contato {
 
     @Override
     public String toString() {
-        return "Nome: " + getNome() + "\nTelefone: " + getTelefone();
-    }
-
-    public Contato(String nome, String telefone) {
-        this.nome = nome;
-        this.telefone = telefone;
+        return "Nome: " + getNome() + "\nTelefone: " + getTelefone() + "\nIdentificador: " + getIdentificador();
     }
 
 }

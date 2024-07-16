@@ -15,8 +15,11 @@ public class Agenda extends Contato {
 
     ArrayList<Contato> contatos = new ArrayList<>();
 
-    public Agenda(String nome, String telefone) {
-        super(nome, telefone);
+    public Agenda(String nome, String telefone, int identificador) {
+        super(nome, telefone, identificador);
+    }
+
+    public Agenda() {
     }
 
     public void cadastrarContato() {
@@ -28,7 +31,9 @@ public class Agenda extends Contato {
         System.out.println("Telefone do Contato:");
         String tel = scan.nextLine();
 
-        Contato cont = new Contato(nome, tel);
+        setIdentificador(getIdentificador() + 1);
+
+        Contato cont = new Contato(nome, tel, getIdentificador());
         contatos.add(cont);
     }
 
@@ -38,14 +43,18 @@ public class Agenda extends Contato {
         System.out.println("Nome para pesquisa:");
         String nomePes = scan.nextLine();
 
-        for (Contato cont : ) {
+        boolean marc = false;
+        for (Contato cont : contatos) {
 
-            boolean encotrado = false;
             if (cont.getNome().equalsIgnoreCase(nomePes)) {
-
-            } else if (!encotrado) {
-                System.out.println("Contato não encontrado");
+                System.out.println(cont.toString());
+                marc = true;
+                break;
             }
+        }
+
+        if (marc == false) {
+            System.out.println("\nContato NÃO encontrado");
         }
 
     }

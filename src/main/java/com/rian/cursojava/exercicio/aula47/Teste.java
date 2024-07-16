@@ -4,7 +4,6 @@
  */
 package com.rian.cursojava.exercicio.aula47;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
@@ -19,28 +18,26 @@ public class Teste {
 
         Agenda agenda = new Agenda();
 
-        int contador = 0;
-
         boolean marcador = true;
 
         while (marcador) {
 
-            System.out.println("\n1 - Cadastrar Contato\n2 - Pesquisar Contato");
+            System.out.println("\n1 - Cadastrar Contato\n2 - Pesquisar Contato\n3 - Parar programa");
             int numPes = scan.nextInt();
 
-            if (numPes == 1) {
-                agenda.cadastrarContato();
+            switch (numPes) {
+                case 1:
+                    agenda.consultarContato();
+                    break;
+                case 2:
+                    agenda.cadastrarContato();
+                    break;
+                case 3:
+                    marcador = false;
+                    break;
 
-                contador++;
-
-                contatos.add(agenda);
-
-            } else if (numPes == 2) {
-                agenda.consultarContato();
-            } else {
-                System.out.println("Caracter inválido");
-                continue;
             }
+
         }
     }
 
