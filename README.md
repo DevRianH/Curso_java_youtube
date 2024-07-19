@@ -8,7 +8,7 @@
 
 ### - Descrição 
 
-Contém as atividades e exercícios realizados durante o curso para melhor aprendizado, tendo em vista que as classes das aulas foram feitas de acordo com o curso e as atividades realizadas por conta
+Contém as atividades e exercícios realizados durante o curso para melhor aprendizado, tendo em vista que as classes das aulas foram feitas de acordo com o curso e as atividades realizadas por conta.
 
 ### -Informações do Curso 
 
@@ -71,6 +71,8 @@ Contém as atividades e exercícios realizados durante o curso para melhor apren
   * Exceptions: tipos de erros no Java </br>
   * Exceptions: criando sua própria exceção </br>
   
-   
+### Link Curso
+  * [CursoJavaLoiane](https://loiane.training/curso/java-basico)
+  
 ### Status do curso 
   * Finalizado
